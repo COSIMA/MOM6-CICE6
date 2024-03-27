@@ -1,0 +1,7 @@
+# WOMBAT field table
+# ===============================================
+"namelists","ocean_mod","generic_wombat/*global*"
+/
+"namelists","ocean_mod","generic_wombat"
+init = f
+/
