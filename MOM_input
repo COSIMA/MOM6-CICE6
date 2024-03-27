@@ -71,7 +71,7 @@ NJGLOBAL = 300                  !
                                 ! domain. With STATIC_MEMORY_ this is set in MOM_memory.h at compile time.
 
 ! === module MOM_fixed_initialization ===
-INPUTDIR = "./input/"           ! default = "."
+INPUTDIR = "./INPUT/"           ! default = "."
                                 ! The directory in which input files are found.
 
 ! === module MOM_grid_init ===
@@ -150,6 +150,12 @@ EPS_OMESH = 1e-13
 ! === module MOM_tracer_flow_control ===
 USE_IDEAL_AGE_TRACER = True     !   [Boolean] default = False
                                 ! If true, use the ideal_age_example tracer package.
+USE_generic_tracer = True       !   [Boolean] default = False
+                                ! If true and _USE_GENERIC_TRACER is defined as a preprocessor macro, use the
+                                ! MOM_generic_tracer packages.
+GENERIC_TRACER_IC_FILE = "_NULL_" ! default = " "
+                                ! The file in which the generic trcer initial values can be found, or an
+                                ! empty string for internal initialization.
 
 ! === module ideal_age_example ===
 
