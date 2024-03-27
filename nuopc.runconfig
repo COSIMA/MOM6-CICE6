@@ -101,7 +101,7 @@ ALLCOMP_attributes::
      data_assimilation_rof = .false.
      data_assimilation_wav = .false.
      flds_bgc_oi = .false.
-     flds_co2a = .false.
+     flds_co2a = .true.
      flds_co2b = .false.
      flds_co2c = .false.
      flds_i2o_per_cat = .false.
@@ -116,12 +116,12 @@ ALLCOMP_attributes::
      hostname = gadi
      ice_ncat = 5
      mediator_present = true
-     mesh_atm = ./input/access-om2-1deg-nomask-ESMFmesh.nc
+     mesh_atm = ./INPUT/access-om2-1deg-nomask-ESMFmesh.nc
      mesh_glc = UNSET
-     mesh_ice = ./input/access-om2-1deg-ESMFmesh.nc
+     mesh_ice = ./INPUT/access-om2-1deg-ESMFmesh.nc
      mesh_lnd = UNSET
-     mesh_mask = ./input/access-om2-1deg-ESMFmesh.nc
-     mesh_ocn = ./input/access-om2-1deg-ESMFmesh.nc
+     mesh_mask = ./INPUT/access-om2-1deg-ESMFmesh.nc
+     mesh_ocn = ./INPUT/access-om2-1deg-ESMFmesh.nc
      model_version = unknown
      ocn2glc_coupling = .false.
      ocn2glc_levels = 1:10:19:26:30:33:35
@@ -138,6 +138,7 @@ ALLCOMP_attributes::
      tfreeze_option = linear_salt
      wav_coupling_to_cice = .false.
      write_restart_at_endofrun = .false.
+     additional_restart_dir = RESTART/
 ::
 
 MED_attributes::
@@ -288,13 +289,13 @@ CLOCK_attributes::
      lnd_cpl_dt = 3600
      ocn_cpl_dt = 3600
      restart_n = 1
-     restart_option = nmonths
+     restart_option = ndays
      restart_ymd = -999
      rof_cpl_dt = 3600
      start_tod = 0
      start_ymd = 19000101
      stop_n = 1
-     stop_option = nmonths
+     stop_option = ndays
      stop_tod = 0
      stop_ymd = -999
      tprof_n = -999
@@ -328,7 +329,7 @@ OCN_attributes::
 
 ROF_attributes::
      Verbosity = off
-     mesh_rof = ./input/access-om2-1deg-nomask-ESMFmesh.nc
+     mesh_rof = ./INPUT/access-om2-1deg-nomask-ESMFmesh.nc
 ::
 
 WAV_attributes::
