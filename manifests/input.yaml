@@ -1,6 +1,36 @@
 format: yamanifest
 version: 1.0
 ---
+work/INPUT/FEMIP_model_median_iron_2016_fillmiss.nc:
+  fullpath: /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2021.06.07/FEMIP_model_median_iron_2016_fillmiss.nc
+  hashes:
+    binhash: d59cb334842710e7f04068db990a18ba
+    md5: b81d7ee79a6ca30bfd2e6ccc49874267
+work/INPUT/GLODAPv2.2016b.NO3_fillmiss.nc:
+  fullpath: /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/GLODAPv2.2016b.NO3_fillmiss.nc
+  hashes:
+    binhash: 10c747ff00ecce9227a49e61cc5cf6af
+    md5: c5afb27948688743858ef966be81ec2e
+work/INPUT/GLODAPv2.2016b.PI_TCO2_fillmiss.nc:
+  fullpath: /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/GLODAPv2.2016b.PI_TCO2_fillmiss.nc
+  hashes:
+    binhash: 890669fa1729c7e372591b4fd130bdfa
+    md5: 0aa9f4a37ff5f01cc180d85305815829
+work/INPUT/GLODAPv2.2016b.TAlk_fillmiss.nc:
+  fullpath: /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/GLODAPv2.2016b.TAlk_fillmiss.nc
+  hashes:
+    binhash: 5fe4ccda4eb7db55df0d13d7a569eec9
+    md5: b84783902f2bc82711496cca49e78a16
+work/INPUT/GLODAPv2.2016b.TCO2_fillmiss.nc:
+  fullpath: /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/GLODAPv2.2016b.TCO2_fillmiss.nc
+  hashes:
+    binhash: 2cc9f311509c39e42820d2f33a73d652
+    md5: 9f8ba1f96551df518e86e510a765311e
+work/INPUT/GLODAPv2.2016b.oxygen_fillmiss.nc:
+  fullpath: /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/GLODAPv2.2016b.oxygen_fillmiss.nc
+  hashes:
+    binhash: 5f295cec9429b8ce7b77d8f253fc6d8d
+    md5: 1abf34fa578d0a589615d5e9a0e465ac
 work/INPUT/JRA55do-ESMFmesh.nc:
   fullpath: /g/data/vk83/experiments/inputs/access-om3/share/meshes/share/2024.01.25/JRA55do-ESMFmesh.nc
   hashes:
@@ -106,6 +136,11 @@ work/INPUT/iced.1900-01-01-10800.nc:
   hashes:
     binhash: a88d7f33c7eef8f6870773f7cc47fc28
     md5: 87c012d60c58c65bb56caa98779e5e51
+work/INPUT/init_ocean_wombatlite.res.nc:
+  fullpath: /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/init_ocean_wombatlite.res.nc
+  hashes:
+    binhash: 89f0a0e9e6a3bfb383eb03a5784470da
+    md5: 1648193a63179513a705541d5f5f508f
 work/INPUT/kmt.nc:
   fullpath: /g/data/vk83/experiments/inputs/access-om3/cice/grids/global.1deg/2024.05.14/kmt.nc
   hashes:

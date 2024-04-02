@@ -153,9 +153,6 @@ USE_IDEAL_AGE_TRACER = True     !   [Boolean] default = False
 USE_generic_tracer = True       !   [Boolean] default = False
                                 ! If true and _USE_GENERIC_TRACER is defined as a preprocessor macro, use the
                                 ! MOM_generic_tracer packages.
-GENERIC_TRACER_IC_FILE = "_NULL_" ! default = " "
-                                ! The file in which the generic trcer initial values can be found, or an
-                                ! empty string for internal initialization.
 
 ! === module ideal_age_example ===
 

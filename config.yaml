@@ -34,6 +34,13 @@ input:
     - /g/data/vk83/experiments/inputs/access-om3/cice/grids/global.1deg/2024.05.14/kmt.nc
     - /g/data/vk83/experiments/inputs/access-om3/cice/initial_conditions/global.1deg/2023.07.28/iced.1900-01-01-10800.nc
     - /g/data/vk83/experiments/inputs/access-om3/wombat/forcing/global.1deg/2022.02.24/dust.nc
+    - /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2021.06.07/FEMIP_model_median_iron_2016_fillmiss.nc
+    - /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/GLODAPv2.2016b.NO3_fillmiss.nc
+    - /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/GLODAPv2.2016b.oxygen_fillmiss.nc
+    - /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/GLODAPv2.2016b.PI_TCO2_fillmiss.nc
+    - /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/GLODAPv2.2016b.TAlk_fillmiss.nc
+    - /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/GLODAPv2.2016b.TCO2_fillmiss.nc
+    - /g/data/vk83/experiments/inputs/access-om3/wombat/initial_conditions/global.1deg/2024.04.02/init_ocean_wombatlite.res.nc
     - /g/data/vk83/experiments/inputs/JRA-55/RYF/v1-4/data
     - /g/data/tm70/ds0092/model/inputs/access-om3/RYF.co2.test.1990_1991.nc
     - /g/data/tm70/ds0092/model/inputs/access-om3/RYF.o2.test.1990_1991.nc
