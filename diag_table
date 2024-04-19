@@ -2,15 +2,15 @@
 1 1 1 0 0 0
 ### Section-1: File List
 #========================
-"access-om3.mom6.h.rho2%4yr-%2mo",                      1,  "months", 1, "days",   "time", 1, "months"
-"access-om3.mom6.h.native%4yr-%2mo",                    1,  "months", 1, "days",   "time", 1, "months"
-"access-om3.mom6.h.z%4yr-%2mo",                         1,  "months", 1, "days",   "time", 1, "months"
-"access-om3.mom6.h.sfc%4yr-%2mo",                       1,  "days",   1, "days",   "time", 1, "months"
-"access-om3.mom6.h.static",                             -1, "days",   1, "days",   "time"
-"access-om3.mom6.h.wombat%4yr-%2mo-%2dy",               1,  "hours",  1, "days",   "time", 1, "days"
-"access-om3.mom6.h.flux_sfc%4yr-%2mo-%2dy",             1,  "hours",  1, "days",   "time", 1, "days"
-"access-om3.mom6.h.ocean_sfc%4yr-%2mo-%2dy",            1,  "hours",  1, "days",   "time", 1, "days"
-"access-om3.mom6.h.atmos_sfc%4yr-%2mo-%2dy",            1,  "hours",  1, "days",   "time", 1, "days"
+"access-om3.mom6.h.rho2%4yr-%2mo",                      1,  "months", 1, "days", "time", 1, "months"
+"access-om3.mom6.h.native%4yr-%2mo",                    1,  "months", 1, "days", "time", 1, "months"
+"access-om3.mom6.h.z%4yr-%2mo",                         1,  "months", 1, "days", "time", 1, "months"
+"access-om3.mom6.h.sfc%4yr-%2mo",                       1,  "days",   1, "days", "time", 1, "months"
+"access-om3.mom6.h.static",                             -1, "days",   1, "days", "time"
+"access-om3.mom6.h.wombat%4yr-%2mo",                    1,  "days",   1, "days", "time", 1, "months"
+"access-om3.mom6.h.flux_sfc%4yr-%2mo",                  1,  "days",   1, "days", "time", 1, "months"
+"access-om3.mom6.h.ocean_sfc%4yr-%2mo",                 1,  "days",   1, "days", "time", 1, "months"
+"access-om3.mom6.h.atmos_sfc%4yr-%2mo",                 1,  "days",   1, "days", "time", 1, "months"
 
 ### Section-2: Fields List
 #=========================
@@ -153,99 +153,99 @@
 "ocean_model", "sin_rot",     "sin_rot",     "access-om3.mom6.h.static", "all", ".false.", "none", 2
 "ocean_model", "cos_rot",     "cos_rot",     "access-om3.mom6.h.static", "all", ".false.", "none", 2
 
-# "access-om3.mom6.h.wombat%4yr-%2mo-%2dy"
-"ocean_model",    "volcello",           "volcello",           "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "pco2",               "pco2",               "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "paco2",              "paco2",              "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "light_limit",        "light_limit",        "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "radbio3d",           "radbio3d",           "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "radbio1",            "radbio1",            "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "det_sed_remin",      "det_sed_remin",      "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "det_sed_depst",      "det_sed_depst",      "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "caco3_sed_remin",    "caco3_sed_remin",    "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "caco3_sed_depst",    "caco3_sed_depst",    "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "wdet100",            "wdet100",            "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "npp3d",              "npp3d",              "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "npp2d",              "npp2d",              "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "npp1",               "npp1",               "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "pprod_gross",        "pprod_gross",        "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "pprod_gross_2d",     "pprod_gross_2d",     "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "zprod_gross",        "zprod_gross",        "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "dic_intmld",         "dic_intmld",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "adic_intmld",        "adic_intmld",        "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "o2_intmld",          "o2_intmld",          "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "no3_intmld",         "no3_intmld",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "fe_intmld",          "fe_intmld",          "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "phy_intmld",         "phy_intmld",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "det_intmld",         "det_intmld",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "pprod_gross_intmld", "pprod_gross_intmld", "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "npp_intmld",         "npp_intmld",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "radbio_intmld",      "radbio_intmld",      "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "dic_int100",         "dic_int100",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "adic_int100",        "adic_int100",        "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "o2_int100",          "o2_int100",          "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "no3_int100",         "no3_int100",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "fe_int100",          "fe_int100",          "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "phy_int100",         "phy_int100",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "det_int100",         "det_int100",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "pprod_gross_int100", "pprod_gross_int100", "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "npp_int100",         "npp_int100",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "radbio_int100",      "radbio_int100",      "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "no3",                "no3",                "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "no3_stf",            "no3_stf",            "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "no3_btf",            "no3_btf",            "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "no3_trunoff",        "no3_trunoff",        "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "phy",                "phy",                "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "phy_stf",            "phy_stf",            "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "phy_trunoff",        "phy_trunoff",        "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "o2",                 "o2",                 "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "o2_stf",             "o2_stf",             "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "o2_stf_gas",         "o2_stf_gas",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "o2_btf",             "o2_btf",             "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "o2_alpha",           "o2_alpha",           "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "o2_csurf",           "o2_csurf",           "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "o2_sc_no",           "o2_sc_no",           "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "zoo",                "zoo",                "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "det",                "det",                "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "caco3",              "caco3",              "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "adic",               "adic",               "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "adic_stf",           "adic_stf",           "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "adic_stf_gas",       "adic_stf_gas",       "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "adic_btf",           "adic_btf",           "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "adic_alpha",         "adic_alpha",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "adic_csurf",         "adic_csurf",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "adic_sc_no",         "adic_sc_no",         "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "dic",                "dic",                "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "dic_stf",            "dic_stf",            "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "dic_stf_gas",        "dic_stf_gas",        "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "dic_btf",            "dic_btf",            "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "dic_alpha",          "dic_alpha",          "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "dic_csurf",          "dic_csurf",          "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "dic_sc_no",          "dic_sc_no",          "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "alk",                "alk",                "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "alk_btf",            "alk_btf",            "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "fe",                 "fe",                 "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "fe_stf",             "fe_stf",             "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "fe_btf",             "fe_btf",             "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "det_sediment",       "det_sediment",       "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
-"generic_wombat", "caco3_sediment",     "caco3_sediment",     "access-om3.mom6.h.wombat%4yr-%2mo-%2dy", "all", "mean", "none", 2
+# "access-om3.mom6.h.wombat%4yr-%2mo"
+"ocean_model",    "volcello",           "volcello",           "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "pco2",               "pco2",               "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "paco2",              "paco2",              "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "light_limit",        "light_limit",        "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "radbio3d",           "radbio3d",           "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "radbio1",            "radbio1",            "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "det_sed_remin",      "det_sed_remin",      "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "det_sed_depst",      "det_sed_depst",      "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "caco3_sed_remin",    "caco3_sed_remin",    "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "caco3_sed_depst",    "caco3_sed_depst",    "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "wdet100",            "wdet100",            "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "npp3d",              "npp3d",              "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "npp2d",              "npp2d",              "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "npp1",               "npp1",               "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "pprod_gross",        "pprod_gross",        "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "pprod_gross_2d",     "pprod_gross_2d",     "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "zprod_gross",        "zprod_gross",        "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "dic_intmld",         "dic_intmld",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "adic_intmld",        "adic_intmld",        "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "o2_intmld",          "o2_intmld",          "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "no3_intmld",         "no3_intmld",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "fe_intmld",          "fe_intmld",          "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "phy_intmld",         "phy_intmld",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "det_intmld",         "det_intmld",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "pprod_gross_intmld", "pprod_gross_intmld", "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "npp_intmld",         "npp_intmld",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "radbio_intmld",      "radbio_intmld",      "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "dic_int100",         "dic_int100",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "adic_int100",        "adic_int100",        "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "o2_int100",          "o2_int100",          "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "no3_int100",         "no3_int100",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "fe_int100",          "fe_int100",          "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "phy_int100",         "phy_int100",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "det_int100",         "det_int100",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "pprod_gross_int100", "pprod_gross_int100", "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "npp_int100",         "npp_int100",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "radbio_int100",      "radbio_int100",      "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "no3",                "no3",                "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "no3_stf",            "no3_stf",            "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "no3_btf",            "no3_btf",            "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "no3_trunoff",        "no3_trunoff",        "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "phy",                "phy",                "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "phy_stf",            "phy_stf",            "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "phy_trunoff",        "phy_trunoff",        "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "o2",                 "o2",                 "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "o2_stf",             "o2_stf",             "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "o2_stf_gas",         "o2_stf_gas",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "o2_btf",             "o2_btf",             "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "o2_alpha",           "o2_alpha",           "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "o2_csurf",           "o2_csurf",           "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "o2_sc_no",           "o2_sc_no",           "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "zoo",                "zoo",                "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "det",                "det",                "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "caco3",              "caco3",              "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "adic",               "adic",               "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "adic_stf",           "adic_stf",           "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "adic_stf_gas",       "adic_stf_gas",       "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "adic_btf",           "adic_btf",           "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "adic_alpha",         "adic_alpha",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "adic_csurf",         "adic_csurf",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "adic_sc_no",         "adic_sc_no",         "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "dic",                "dic",                "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "dic_stf",            "dic_stf",            "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "dic_stf_gas",        "dic_stf_gas",        "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "dic_btf",            "dic_btf",            "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "dic_alpha",          "dic_alpha",          "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "dic_csurf",          "dic_csurf",          "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "dic_sc_no",          "dic_sc_no",          "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "alk",                "alk",                "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "alk_btf",            "alk_btf",            "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "fe",                 "fe",                 "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "fe_stf",             "fe_stf",             "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "fe_btf",             "fe_btf",             "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "det_sediment",       "det_sediment",       "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
+"generic_wombat", "caco3_sediment",     "caco3_sediment",     "access-om3.mom6.h.wombat%4yr-%2mo", "all", "mean", "none", 2
 
-# "access-om3.mom6.h.flux_sfc%4yr-%2mo-%2dy"
-"ocean_flux", "co2_flux_flux_ice_ocn",    "co2_flux_flux_ice_ocn",    "access-om3.mom6.h.flux_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
-"ocean_flux", "o2_flux_flux_ice_ocn",     "o2_flux_flux_ice_ocn",     "access-om3.mom6.h.flux_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
+# "access-om3.mom6.h.flux_sfc%4yr-%2mo"
+"ocean_flux", "co2_flux_flux_ice_ocn",    "co2_flux_flux_ice_ocn",    "access-om3.mom6.h.flux_sfc%4yr-%2mo", "all", "none", "none", 2
+"ocean_flux", "o2_flux_flux_ice_ocn",     "o2_flux_flux_ice_ocn",     "access-om3.mom6.h.flux_sfc%4yr-%2mo", "all", "none", "none", 2
 
-# "access-om3.mom6.h.ocean_sfc%4yr-%2mo-%2dy"
-"ocean_sfc",  "co2_flux_alpha_ocn",       "co2_flux_alpha_ocn",       "access-om3.mom6.h.ocean_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
-"ocean_sfc",  "co2_flux_csurf_ocn",       "co2_flux_csurf_ocn",       "access-om3.mom6.h.ocean_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
-"ocean_sfc",  "co2_flux_sc_no_ocn",       "co2_flux_sc_no_ocn",       "access-om3.mom6.h.ocean_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
-"ocean_sfc",  "o2_flux_alpha_ocn",        "o2_flux_alpha_ocn",        "access-om3.mom6.h.ocean_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
-"ocean_sfc",  "o2_flux_csurf_ocn",        "o2_flux_csurf_ocn",        "access-om3.mom6.h.ocean_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
-"ocean_sfc",  "o2_flux_sc_no_ocn",        "o2_flux_sc_no_ocn",        "access-om3.mom6.h.ocean_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
+# "access-om3.mom6.h.ocean_sfc%4yr-%2mo"
+"ocean_sfc",  "co2_flux_alpha_ocn",       "co2_flux_alpha_ocn",       "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
+"ocean_sfc",  "co2_flux_csurf_ocn",       "co2_flux_csurf_ocn",       "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
+"ocean_sfc",  "co2_flux_sc_no_ocn",       "co2_flux_sc_no_ocn",       "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
+"ocean_sfc",  "o2_flux_alpha_ocn",        "o2_flux_alpha_ocn",        "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
+"ocean_sfc",  "o2_flux_csurf_ocn",        "o2_flux_csurf_ocn",        "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
+"ocean_sfc",  "o2_flux_sc_no_ocn",        "o2_flux_sc_no_ocn",        "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
 
-# "access-om3.mom6.h.atmos_sfc%4yr-%2mo-%2dy"
-"atmos_sfc",  "co2_flux_pcair_atm",       "co2_flux_pcair_atm",       "access-om3.mom6.h.atmos_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
-"atmos_sfc",  "co2_flux_u10_atm",         "co2_flux_u10_atm",         "access-om3.mom6.h.atmos_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
-"atmos_sfc",  "co2_flux_psurf_atm",       "co2_flux_psurf_atm",       "access-om3.mom6.h.atmos_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
-"atmos_sfc",  "o2_flux_pcair_atm",        "o2_flux_pcair_atm",        "access-om3.mom6.h.atmos_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
-"atmos_sfc",  "o2_flux_u10_atm",          "o2_flux_u10_atm",          "access-om3.mom6.h.atmos_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
-"atmos_sfc",  "o2_flux_psurf_atm",        "o2_flux_psurf_atm",        "access-om3.mom6.h.atmos_sfc%4yr-%2mo-%2dy", "all", "none", "none", 2
+# "access-om3.mom6.h.atmos_sfc%4yr-%2mo"
+"atmos_sfc",  "co2_flux_pcair_atm",       "co2_flux_pcair_atm",       "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
+"atmos_sfc",  "co2_flux_u10_atm",         "co2_flux_u10_atm",         "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
+"atmos_sfc",  "co2_flux_psurf_atm",       "co2_flux_psurf_atm",       "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
+"atmos_sfc",  "o2_flux_pcair_atm",        "o2_flux_pcair_atm",        "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
+"atmos_sfc",  "o2_flux_u10_atm",          "o2_flux_u10_atm",          "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
+"atmos_sfc",  "o2_flux_psurf_atm",        "o2_flux_psurf_atm",        "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2

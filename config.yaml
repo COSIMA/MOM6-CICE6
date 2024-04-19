@@ -13,7 +13,7 @@ ncpus: 48
 jobfs: 10GB
 mem: 192GB
 
-walltime: 00:30:00
+walltime: 01:00:00
 jobname: 1deg_jra55do_ryf_wombat
 
 model: access-om3

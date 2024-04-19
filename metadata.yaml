@@ -1,7 +1,0 @@
-experiment_uuid: 7b4ca525-7320-4a33-b798-e650af1e2897
-created: '2024-03-27'
-name: MOM6-CICE6-fork-1deg_jra55do_ryf_wombat-7b4ca525
-model: ACCESS-OM3
-url: git@github.com:dougiesquire/MOM6-CICE6.git
-contact: dougiesquire
-email: dougiesquire@gmail.com
