@@ -101,7 +101,7 @@ ALLCOMP_attributes::
      data_assimilation_rof = .false.
      data_assimilation_wav = .false.
      flds_bgc_oi = .false.
-     flds_co2a = .true.
+     flds_co2a = .false.
      flds_co2b = .false.
      flds_co2c = .false.
      flds_i2o_per_cat = .false.

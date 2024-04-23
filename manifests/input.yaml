@@ -36,11 +36,6 @@ work/INPUT/JRA55do-ESMFmesh.nc:
   hashes:
     binhash: 100055c7cbb1d91ae5036ce7ba102fe0
     md5: 1c8481b8c85f59b6cbfc2ed5bc24c77d
-work/INPUT/RYF.co2.test.1990_1991.nc:
-  fullpath: /g/data/tm70/ds0092/model/inputs/access-om3/RYF.co2.test.1990_1991.nc
-  hashes:
-    binhash: 556d0de3f999c712e1ad4b3e4a84eab9
-    md5: abf36670ad8117284ff49ac1341359e4
 work/INPUT/RYF.friver.1990_1991.nc:
   fullpath: /g/data/vk83/experiments/inputs/JRA-55/RYF/v1-4/data/RYF.friver.1990_1991.nc
   hashes:
@@ -56,11 +51,6 @@ work/INPUT/RYF.licalvf.1990_1991.nc:
   hashes:
     binhash: f219ce98f3fcbe6f8ec517740f01aee1
     md5: 6f927702cbc023cc20d3ddd69695f0a0
-work/INPUT/RYF.o2.test.1990_1991.nc:
-  fullpath: /g/data/tm70/ds0092/model/inputs/access-om3/RYF.o2.test.1990_1991.nc
-  hashes:
-    binhash: 24b4b77a601830270a65ccf14147ba3b
-    md5: 46158680d7170afc7718ca1a295f7e68
 work/INPUT/RYF.prra.1990_1991.nc:
   fullpath: /g/data/vk83/experiments/inputs/JRA-55/RYF/v1-4/data/RYF.prra.1990_1991.nc
   hashes:

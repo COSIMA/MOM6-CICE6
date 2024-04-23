@@ -238,6 +238,9 @@
 "ocean_sfc",  "co2_flux_alpha_ocn",       "co2_flux_alpha_ocn",       "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
 "ocean_sfc",  "co2_flux_csurf_ocn",       "co2_flux_csurf_ocn",       "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
 "ocean_sfc",  "co2_flux_sc_no_ocn",       "co2_flux_sc_no_ocn",       "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
+"ocean_sfc",  "co2_nat_flux_alpha_ocn",   "co2_nat_flux_alpha_ocn",   "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
+"ocean_sfc",  "co2_nat_flux_csurf_ocn",   "co2_nat_flux_csurf_ocn",   "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
+"ocean_sfc",  "co2_nat_flux_sc_no_ocn",   "co2_nat_flux_sc_no_ocn",   "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
 "ocean_sfc",  "o2_flux_alpha_ocn",        "o2_flux_alpha_ocn",        "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
 "ocean_sfc",  "o2_flux_csurf_ocn",        "o2_flux_csurf_ocn",        "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
 "ocean_sfc",  "o2_flux_sc_no_ocn",        "o2_flux_sc_no_ocn",        "access-om3.mom6.h.ocean_sfc%4yr-%2mo", "all", "none", "none", 2
@@ -246,6 +249,9 @@
 "atmos_sfc",  "co2_flux_pcair_atm",       "co2_flux_pcair_atm",       "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
 "atmos_sfc",  "co2_flux_u10_atm",         "co2_flux_u10_atm",         "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
 "atmos_sfc",  "co2_flux_psurf_atm",       "co2_flux_psurf_atm",       "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
+"atmos_sfc",  "co2_nat_flux_pcair_atm",   "co2_nat_flux_pcair_atm",   "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
+"atmos_sfc",  "co2_nat_flux_u10_atm",     "co2_nat_flux_u10_atm",     "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
+"atmos_sfc",  "co2_nat_flux_psurf_atm",   "co2_nat_flux_psurf_atm",   "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
 "atmos_sfc",  "o2_flux_pcair_atm",        "o2_flux_pcair_atm",        "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
 "atmos_sfc",  "o2_flux_u10_atm",          "o2_flux_u10_atm",          "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2
 "atmos_sfc",  "o2_flux_psurf_atm",        "o2_flux_psurf_atm",        "access-om3.mom6.h.atmos_sfc%4yr-%2mo", "all", "none", "none", 2

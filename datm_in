@@ -2,7 +2,7 @@
   datamode = "CORE_IAF_JRA55do"
   factorfn_data = "null"
   factorfn_mesh = "null"
-  flds_co2 = .true.
+  flds_co2 = .false.
   flds_presaero = .false.
   flds_presndep = .false.
   flds_preso3 = .false.

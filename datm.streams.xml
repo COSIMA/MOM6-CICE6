@@ -195,25 +195,4 @@
    </datavars>
    <offset>0</offset>
   </stream_info>
-
-  <stream_info name="co2.test">
-   <taxmode>cycle</taxmode>
-   <tintalgo>linear</tintalgo>
-   <readmode>single</readmode>
-   <mapalgo>bilinear</mapalgo>
-   <dtlimit>1.5</dtlimit>
-   <year_first>1900</year_first>
-   <year_last>1900</year_last>
-   <year_align>1</year_align>
-   <vectors>null</vectors>
-   <meshfile>./INPUT/JRA55do-ESMFmesh.nc</meshfile>
-   <lev_dimname>null</lev_dimname>
-   <datafiles>
-      <file>./INPUT/RYF.co2.test.1990_1991.nc</file>
-   </datafiles>
-   <datavars>
-      <var>co2 Sa_co2prog</var>
-   </datavars>
-   <offset>0</offset>
-  </stream_info>
 </file>
