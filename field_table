@@ -1,8 +1,8 @@
-# WOMBAT field table
+# WOMBATlite field table
 # ===============================================
-"namelists","ocean_mod","generic_wombat/*global*"
+"namelists","ocean_mod","generic_wombatlite/*global*"
 /
-"namelists","ocean_mod","generic_wombat"
+"namelists","ocean_mod","generic_wombatlite"
 init = f
 #
 no3_src_file = INPUT/GLODAPv2.2016b.NO3_fillmiss.nc

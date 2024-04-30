@@ -2,7 +2,7 @@ format: yamanifest
 version: 1.0
 ---
 work/access-om3-MOM6-CICE6:
-  fullpath: /g/data/tm70/ds0092/model/access-om3/Release/bin/access-om3-MOM6-CICE6
+  fullpath: /g/data/tm70/ds0092/model/dev/access-om3-gtracer/.spack-env/view/bin/access-om3-MOM6-CICE6
   hashes:
-    binhash: 4d5adf5212f4a86e4cccd088fc256130
-    md5: 7e8f09ea185c37e0f63b2aed1c8b3bd6
+    binhash: a552bb930c86df92cf883e3aaf8129bf
+    md5: 1b1e5d28a25aeee06ebcfcda2dde2f94

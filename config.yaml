@@ -14,11 +14,11 @@ jobfs: 10GB
 mem: 192GB
 
 walltime: 01:00:00
-jobname: 1deg_jra55do_ryf_wombat
+jobname: 1deg_jra55do_ryf_wombatlite
 
 model: access-om3
 
-exe: /g/data/tm70/ds0092/model/access-om3/Release/bin/access-om3-MOM6-CICE6
+exe: /g/data/tm70/ds0092/model/dev/access-om3-gtracer/.spack-env/view/bin/access-om3-MOM6-CICE6
 input:
     - /g/data/vk83/experiments/inputs/access-om3/share/meshes/global.1deg/2024.01.25/access-om2-1deg-ESMFmesh.nc
     - /g/data/vk83/experiments/inputs/access-om3/share/meshes/global.1deg/2024.01.25/access-om2-1deg-nomask-ESMFmesh.nc

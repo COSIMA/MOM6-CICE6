@@ -2,13 +2,13 @@
 # SPDX-License-Identifier: Apache-2.0
 
 # =========================================================================================
-# Generate constant initial conditions for WOMBAT using grid from a provided file
+# Generate constant initial conditions for WOMBATlite using grid from a provided file
 #
 # To run:
-#   python generate_wombat_ic.py --grid-filename=<path-to-grid-file> --variable-name=<variable-name>
-#       --ic-filename=<path-to-output-file>
+#   python generate_wombatlite_ic.py --grid-filename=<path-to-grid-file>
+#       --variable-name=<variable-name> --ic-filename=<path-to-output-file>
 #
-# For more information, run `python generate_wombat_ic.py -h`
+# For more information, run `python generate_wombatlite_ic.py -h`
 #
 # Contact:
 #   Dougie Squire <dougal.squire@anu.edu.au>
@@ -53,7 +53,7 @@ def git_info():
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Generate constant initial conditions for WOMBAT using grid from provided file."
+        description="Generate constant initial conditions for WOMBATlite using grid from provided file."
     )
 
     parser.add_argument(
