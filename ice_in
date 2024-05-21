@@ -74,7 +74,7 @@
   maskhalo_bound = .true.
   maskhalo_dyn = .true.
   maskhalo_remap = .true.
-  max_blocks = 10
+  max_blocks = 20
   ns_boundary_type = "tripole"
   nx_global = 360
   ny_global = 300
@@ -109,25 +109,25 @@
   f_smassliq = "m"
 /
 &icefields_nml
-  f_aice = "md"
+  f_aice = "m"
   f_aicen = "m"
   f_bounds = .false.
   f_fcondtopn_ai = "m"
-  f_congel = "md"
-  f_dvidtd = "md"
-  f_dvidtt = "md"
+  f_congel = "m"
+  f_dvidtd = "m"
+  f_dvidtt = "m"
   f_fmelttn_ai = "m"
-  f_frzmlt = "md"
-  f_frazil = "md"
+  f_frzmlt = "m"
+  f_frazil = "m"
   f_flatn_ai   = "m"
   f_fsens_ai = "m"
   f_fsensn_ai = "m"
   f_fsurfn_ai = "m"
-  f_hi = "md"
-  f_hs = "md"
-  f_sifb = "md"
-  f_snoice = "md"
-  f_uvel = "md" , f_vvel = "md"
+  f_hi = "m"
+  f_hs = "m"
+  f_sifb = "m"
+  f_snoice = "m"
+  f_uvel = "m" , f_vvel = "m"
   f_vicen = "m"
   !-----------------------------------
   ! These fields are on by default (in ice_history_shared.F90) but lets turn them off
