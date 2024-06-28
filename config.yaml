@@ -39,5 +39,5 @@ metadata:
     enable: false
 
 userscripts:
-    setup: ./setup_cice_restarts.sh
-    archive: ./archive_cice_restarts.sh
+    setup: tools/setup_cice_restarts.sh
+    archive: tools/archive_cice_restarts.sh 
