@@ -40,4 +40,13 @@ metadata:
 
 userscripts:
     setup: tools/setup_cice_restarts.sh
-    archive: tools/archive_cice_restarts.sh&tools/concat_ice_daily.sh
+    archive: 
+        - tools/archive_cice_restarts.sh
+        - tools/concat_ice_daily.sh
+        - python3 tools/build_intake_ds.py
+
+modules:
+    use:
+        - /g/data/xp65/public/modules
+    load:
+        - conda/access-med-unstable
